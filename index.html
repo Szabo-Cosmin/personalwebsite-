@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>CV Website</title>
+  </head>
+  <body></body>
+</html>
+<head>
+ 
+  <body>
+    <div class="Container">
+
+      <button class="btn--nav">
+        <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="close-icon" name="close-outline"></ion-icon>
+      </button>
+      
+      <aside class="sidebar-1">
+        <div class="overlay"></div>
+      
+        <div class="sidebar-menu">
+          <p>Menu</p>
+        </div>
+        
+
+        <ul class="righ-bar-2">
+
+          <li class="nav-icon nav-icon-1">
+            <a class="nav-icons-1" href="#home">
+              <ion-icon class="position-icon position-icon-1" name="home-outline"></ion-icon>
+              <span class="sidebar-text">Home</span>
+            </a>
+          </li>
+
+          <li class="nav-icon nav-icon-1">
+            <a class="nav-icons-1" href="#about">
+              <ion-icon
+                class="position-icon"
+                name="person-outline"
+              ></ion-icon>
+              <span class="sidebar-text">About</span>
+            </a>
+          </li>
+
+          <li class="nav-icon nav-icon-1">
+            <a class="nav-icons-1" href="#resume">
+              <ion-icon
+                class="position-icon"
+                name="briefcase-outline"
+              ></ion-icon>
+              <span class="sidebar-text">Resume</span>
+            </a>
+          </li>
+
+          <li class="nav-icon nav-icon-1">
+            <a class="nav-icons-1" href="#services">
+              <ion-icon
+                class="position-icon"
+                name="options-outline"
+              ></ion-icon>
+              <span class="sidebar-text">Services</span>
+            </a>
+          </li>
+
+          <li class="nav-icon nav-icon-1">
+            <a class="nav-icons-1" href="#skills">
+              <ion-icon
+            class="position-icon"
+            name="shapes-outline"
+          ></ion-icon>
+              
+              <span class="sidebar-text">Skills</span>
+            </a>
+          </li>
+
+          <li class="nav-icon nav-icon-1">
+            <a  class="nav-icons-1" href="#portofolio">
+              <ion-icon class="position-icon hover-icon position-icon-bar" name="apps-outline"></ion-icon>
+              <span class="sidebar-text">Portofolio</span>
+            </a>
+          </li>
+
+          <li class="nav-icon nav-icon-1">
+            <a class="nav-icons-1" href="#contact">
+              <ion-icon class="position-icon" name="mail-outline"></ion-icon>
+              <span class="sidebar-text">Contact</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="sidebar-menu sidebar-menu-1">
+          <p>Social</p>
+        </div>
+
+        <ul class="social-profile social-profile-bar">
+          <li class="social-link link-bar">
+            <a
+              class="icons icons-bar"
+              href="https://www.linkedin.com/in/cosmin-szabo-ba0486275/"
+              >
+                <ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li class="social-link link-bar">
+            <a class="icons icons-bar" href="mailTo:szabo.cosmin.alexandru@gmail.com"
+              ><ion-icon class="social-icon" name="mail-outline"></ion-icon
+            ></a>
+          </li>
+          <li class="social-link link-bar">
+            <a class="icons icons-bar" href="https://www.facebook.com/szabo.cosmin.1"
+              ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li class="social-link link-bar">
+            <a class="icons icons-bar" href="https://github.com/Szabo-Cosmin"
+              ><ion-icon class="social-icon" name="logo-github"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </aside>
+    
+      <header class="sidebar-header">
+        <div class="left-sidebar">
+          <div class="sidebar-top">
+            <h1 class="name">Szabo Cosmin</h1>
+            <div class="designation">Junior Frontend Developer</div>
+          </div>
+
+          <img
+            class="my-img"
+            alt="My Picture"
+            src="312071575_1820271684993276_423985578500391713_n.jpg"
+          />
+
+          <div class="line">
+            <h2 class="email">szabo.cosmin.alexandru@gmail.com</h2>
+            <h2 class="address">Satu Mare, Romania</h2>
+
+            <p class="copyright">© 2023 Szabo Cosmin. All Rights Reserved</p>
+          </div>
+
+          <ul class="social-profile">
+            <li class="link">
+              <a
+                class="icons"
+                href="https://www.linkedin.com/in/cosmin-szabo-ba0486275/"
+                >
+                  <ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+            <li class="link">
+              <a class="icons" href="mailTo:szabo.cosmin.alexandru@gmail.com"
+                ><ion-icon class="social-icon" name="mail-outline"></ion-icon
+              ></a>
+            </li>
+            <li class="link">
+              <a class="icons" href="https://www.facebook.com/szabo.cosmin.1"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li class="link">
+              <a class="icons" href="https://github.com/Szabo-Cosmin"
+                ><ion-icon class="social-icon" name="logo-github"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <button class="btn-contact">
+            <ion-icon class="btn-icon" name="mail-open-outline"></ion-icon
+            ><span class="contact"> Contact</span>
+          </button>
+        </div>
+
+      
+        <nav class="scroll-nav ">
+          <ul class="right-bar">
+            <li class="nav-icon active">
+              <a class="nav-icons-1" href="#home">
+                <ion-icon class="position-icon" name="home-outline"></ion-icon>
+                <span class="nav-text nav-text-1">Home</span>
+              </a>
+            </li>
+
+            <li class="nav-icon">
+              <a class="nav-icons-1" href="#about">
+                <ion-icon
+                  class="position-icon"
+                  name="person-outline"
+                ></ion-icon>
+                <span class="nav-text nav-text-2">About</span>
+              </a>
+            </li>
+
+            <li class="nav-icon">
+              <a class="nav-icons-1" href="#resume">
+                <ion-icon
+                  class="position-icon"
+                  name="briefcase-outline"
+                ></ion-icon>
+                <span class="nav-text nav-text-3">Resume</span>
+              </a>
+            </li>
+
+            <li class="nav-icon">
+              <a class="nav-icons-1 " href="#services">
+                <ion-icon
+                  class="position-icon"
+                  name="options-outline"
+                ></ion-icon>
+                <span class="nav-text nav-text-4">Services</span>
+              </a>
+            </li>
+
+            <li class="nav-icon">
+              <a class="nav-icons-1" href="#skills">
+                <ion-icon
+              class="position-icon"
+              name="shapes-outline"
+            ></ion-icon>
+                
+                <span class="nav-text nav-text-5">Skills</span>
+              </a>
+            </li>
+
+            <li class="nav-icon">
+              <a  class="nav-icons-1" href="#portofolio">
+                <ion-icon class="position-icon hover-icon" name="apps-outline"></ion-icon>
+                <span class="nav-text nav-text-6">Portofolio</span>
+              </a>
+            </li>
+
+            <li class="nav-icon">
+              <a class="nav-icons-1" href="#contact">
+                <ion-icon class="position-icon" name="mail-outline"></ion-icon>
+                <span class="nav-text nav-text-8">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+
+      <section class="hero-section " id="home">
+        <div class="section-head">
+          <span class="home"
+            ><ion-icon class="home-icon" name="home-outline"></ion-icon
+            >Introduction</span
+          >
+        </div>
+        <h1 class="main-text">
+          Greetings from <span class="cosmin">Cosmin</span>, Junior Frontend
+          Developer
+        </h1>
+        <p class="p-text">
+          I'm passionate about creating beautiful and functional websites that
+          engage and delight users. Please take a look around and get in touch
+          if you have any questions or opportunities to collaborate.
+        </p>
+        <div>
+          <a class="rotate-animation" href="#Potofolio">
+            <img
+              class="img-animation"
+              src="round-text.png"
+              alt="img animation"
+            />
+            <div class="arrow-down">
+              <ion-icon name="arrow-down-outline"></ion-icon>
+            </div>
+          </a>
+        </div>
+
+        <div class="work-year">
+          <div>
+            <h1 class="year">1+</h1>
+            <p class="work">YEARS OF EXPERIENCE</p>
+          </div>
+
+          <div>
+            <h1 class="year">11+</h1>
+            <p class="work">PROJECTS COMPLETED</p>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="hero-section section-about" id="about">
+        <div>
+          <span class="home"
+            ><ion-icon class="home-icon" name="person-outline"></ion-icon>About</span
+          >
+        </div>
+
+        <div>
+          <h1 class="main-text-2">
+            Crafting seamless user experiences with 
+            <span class="cosmin">every line of code.</span>
+          </h1>
+
+          <p class="p-text">
+            Hi there! I'm a junior frontend developer with a passion for creating beautiful, user-friendly interfaces. I have experience in HTML, CSS (SCSS), JavaScript, jQuery and Bootstrap. I am looking forward to working collaboratively with designers and developers to bring projects to life, and I am always eager to learn new technologies and best practices. My goal is to create engaging and intuitive web experiences that delight users and drive business goals.
+          </p>
+        </div>
+        
+      </section>
+
+      <section class="hero-section section-about" id="resume">
+        <div>
+          <span class="home"
+            ><ion-icon class="home-icon" name="briefcase-outline"></ion-icon>Resume</span
+          >
+        </div>
+
+          <div>
+            <h1 class="main-text-2">
+            Education &
+              <span class="cosmin">Experience</span>
+            </h1>
+          </div>
+      <div class="resume-1">
+         <div class="resume">
+            <div>
+              <!-- <span class="dot" ></span>
+              <hr class="bar-1"> -->
+              <span class="year-time">2023 - Present</span>
+            </div>
+
+           <div>
+              <p class="text-time">Trainee Frontend Developer</p>
+              <span class="work-name">TOR Commerce SRL</span>
+            </div>
+        </div>
+
+        <div class="resume">
+          <div>
+            <!-- <span class="dot" ></span>
+            <hr class="bar-1"> -->
+            <span class="year-time">2017 - 2022</span>
+         </div>
+
+          <div>
+            <p class="text-time">LandSheriffs Security</p>
+            <span class="work-name">Senior Team-Leader
+            </span>
+          </div>
+
+         <div>
+            <p class="text-time">Hotel PremierInn</p>
+            <span class="work-name">Receptioner</span>
+          </div>
+
+         <div>
+            <p class="text-time">SC Tipo Target SRL</p>
+            <span class="work-name">Director</span>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section class="hero-section section-about" id="services">
+          <div>
+            <span class="home"
+              ><ion-icon class="home-icon" name="briefcase-outline"></ion-icon>Services</span>
+          </div>
+  
+          <div>
+              <h1 class="main-text-2"> My
+                <span class="cosmin">Specializations</span>
+              </h1>
+          </div class="all-specializations">
+
+            <div class="specializations">
+              <h2 class="text-h2">Website Desing <ion-icon class="icons-web" name="git-network-outline"></ion-icon>
+              </h2>
+
+              <p class="nr-project">I created digital products with unique ideas use Figma & Framer
+              </p>
+
+              <span class="project">24 PROJECTS
+              </span>
+            </div>
+
+            <div class="specializations">
+
+              <h2 class="text-h2">Development <ion-icon  class="icons-web" name="code-slash-outline"></ion-icon>
+              </h2>
+
+              <p class="nr-project">I build website go live with Framer, Webflow or WordPress
+              </p>
+
+              <span class="project">126 PROJECTS
+              </span>
+            </div>
+
+            <div class="specializations">
+              <h2 class="text-h2">SEO/Marketing <ion-icon  class="icons-web" name="rocket-outline"></ion-icon>
+              </h2>
+
+              <p class="nr-project">Increase the traffic for your website with SEO optimized
+              </p>
+
+              <span class="project">8 PROJECTS
+              </span>
+            </div>
+          <div>
+        </div>
+      </section>
+
+      <section class="section hero-section section-about" id="skills">
+        <div>
+          <span class="home"
+            ><ion-icon class="home-icon" name="shapes-outline"></ion-icon>My Skills</span>
+        </div>
+
+        <div>
+            <h1 class="main-text-2"> My
+              <span class="cosmin">Skills</span>
+            </h1>
+        </div>
+
+          <div class="flex-coll-6">
+            <div class="flex-coll-1">
+
+              <div class="skill">
+
+                <span>
+                  <img class="skill-img" src="logo-js.png" alt="JavaScript">
+                </span>
+
+                <h1 class="skill-inner">
+                  92%
+                </h1>
+              </div>
+
+               <p class="name-skills">JavaScript
+               </p>
+            </div>
+
+            <div class="flex-coll-1">
+
+              <div class="skill">
+
+                <span>
+                  <img class="skill-img" src="logo-html.png" alt="HTML">
+                </span>
+
+                <h1 class="skill-inner">
+                  85%
+                </h1>
+              </div>
+
+               <p class="name-skills">HTML
+               </p>
+            </div>
+
+            <div class="flex-coll-1">
+
+              <div class="skill">
+
+                <span>
+                  <img class="skill-img" src="logo-css.png" alt="CSS">
+                </span>
+
+                <h1 class="skill-inner">
+                  80%
+                </h1>
+              </div>
+
+               <p class="name-skills">CSS
+               </p>
+            </div>
+
+            <div class="flex-coll-1">
+
+              <div class="skill">
+
+                <span>
+                  <img class="skill-img" src="logo-git.png" alt="git">
+                </span>
+
+                <h1 class="skill-inner">
+                  90%
+                </h1>
+
+              </div>
+
+               <p class="name-skills">Github
+               </p>
+            </div>
+            <div class="flex-coll-1">
+              
+              <div class="skill">
+                
+                <span>
+                  <img class="skill-img skill-img-npm" src="logo-npm.png" alt="npm">
+                </span>
+                
+                <h1 class="skill-inner">
+                  86%
+                </h1>
+                
+              </div>
+              
+              <p class="name-skills">NPM
+              </p>
+              
+            </div>
+            <div class="flex-coll-1">
+              
+              <div class="skill">
+                
+                <span>
+                  <img class="skill-img skill-img-boot" src="logo-bootstrap.png" alt="Bootstrap">
+                </span>
+                
+                <h1 class="skill-inner">
+                  70%
+                </h1>
+              </div>
+              
+              <p class="name-skills">Bootstrap
+              </p>
+            </div>
+          </div>
+            
+      </section>
+
+    <section class="hero-section section-about" id="portofolio">
+        <div>
+          <span class="home"
+          ><ion-icon class="home-icon" name="apps-outline"></ion-icon>Portofolio</span>
+        </div>
+        
+        <div>
+          <h1 class="main-text-2"> My
+            <span class="cosmin">Projects</span>
+          </h1>
+        </div>
+        
+        <div class="portofolio-list">
+
+          <div class="portofolio-item">
+            
+            <a href="https://coasa-pizza.netlify.app/">
+              <div class="portofolio-img"></div>
+            </a>
+
+            <ul class="list-skills">
+              <li>
+                <a class="skil-portofolio" href="#">JavaScript</a>
+              </li>
+
+              <li>
+                <a class="skil-portofolio" href="#">HTML</a>
+              </li>
+
+              <li>
+                <a class="skil-portofolio" href="#">CSS</a>
+              </li>
+
+              <li>
+                <a class="skil-portofolio" href="#">ES6 Modules</a>
+              </li>
+            </ul>
+          </div>
+
+          <h2>
+            <a class="sub-img" href="" >Pizza</a>
+          </h2>
+        </div>
+
+      <div class="flex-img">
+        <div class="portofolio-list">
+
+          <div class="portofolio-item">
+            
+            <a href="https://omifood-healthy.netlify.app/">
+              <div class="portofolio-img-1"></div>
+            </a>
+
+            <ul class="list-skills">
+
+              <li>
+                <a class="skil-portofolio" href="#">HTML</a>
+              </li>
+
+              <li>
+                <a class="skil-portofolio" href="#">CSS</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <h2>
+            <a class="sub-img" href="" >Ommifood</a>
+          </h2>
+        </div>
+
+        <div class="portofolio-list">
+
+          <div class="portofolio-item">
+            
+            <a href="https://rocket-meetup.netlify.app/">
+              <div class="portofolio-img-2"></div>
+            </a>
+
+            <ul class="list-skills">
+
+              <li>
+                <a class="skil-portofolio" href="#">HTML</a>
+              </li>
+
+              <li>
+                <a class="skil-portofolio" href="#">CSS</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <h2>
+            <a class="sub-img" href="" >Meetup</a>
+          </h2>
+        </div>
+      </div>
+
+      <div class="portofolio-list">
+
+        <div class="portofolio-item">
+          
+          <a href="https://bank-detail.netlify.app/">
+            <div class="portofolio-img-3"></div>
+          </a>
+
+          <ul class="list-skills">
+            <li>
+              <a class="skil-portofolio" href="#">JavaScript</a>
+            </li>
+
+            <li>
+              <a class="skil-portofolio" href="#">HTML</a>
+            </li>
+
+            <li>
+              <a class="skil-portofolio" href="#">CSS</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <h2>
+          <a class="sub-img" href="" >Bank</a>
+        </h2>
+      </div>
+    </section>
+
+    <section class="hero-section section-about" id="contact">
+        <div>
+          <span class="home home-contact"
+          ><ion-icon class="home-icon" name="mail-outline"></ion-icon>Contact</span>
+        </div>
+
+        <div class="email-contact">
+          <span>szabo.cosmin.alexandru@gmail.com</span>
+        </div>
+        
+        <div>
+          <h1 class="main-text-2"> Let's Work
+            <span class="cosmin">Together</span>
+          </h1>
+        </div>
+
+      <div class="max">
+      <div class="flex-input">
+        <div class="flex-label">
+          <label class="label">FULL NAME <span class="stea">*</span></label>
+          <input class="input" type="text" placeholder="Your Full Name" />
+        </div>
+        
+        <div class="flex-label">
+          <label class="label">EMAIL<span class="stea">*</span></label>
+              <input
+                class="input"
+                type="email"
+                placeholder="Your email address"
+              />
+        </div>
+      </div>
+      
+      <div class="flex-input">
+        <div class="flex-label">
+          <label class="label" for="phone">PHONE (OPTIONAL)</label>
+          <input class="input" type="number" placeholder="Your Phone Number" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </div>
+        
+        <div class="flex-label">
+          <label class="label">Subject <span class="stea">*</span></label>
+          <input class="input" type="Subject" placeholder="Subject 1" />
+        </div>
+      </div>
+
+      <div class="flex-label">
+        <label class="label label-1">MESSAGE *</label>
+        <textarea class="message input" rows="4" placeholder="Write your message here ..." cols="50"></textarea>
+      </div>
+    </div>
+
+    <button class="btn-contact btn-contact-2">
+      <span class="contact"> SEND MESSAGE</span>
+    </button>
+
+  </section>

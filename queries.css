@@ -1,0 +1,471 @@
+/* @media (max-width: 2560px) {
+  .hero-section {
+    max-width: 1200px;
+  }
+  .p-text {
+    max-width: 1200px;
+  }
+  .portofolio-list {
+    max-width: 1000px;
+  }
+  .portofolio-img-2 {
+    width: 490px;
+  }
+  .portofolio-img-1 {
+    width: 490px;
+  }
+  .portofolio-img {
+    background-image: url("media-pizza-2560.PNG");
+    background-size: cover;
+  }
+
+  .portofolio-img-3 {
+    background-image: url("media-bank-2560.PNG");
+    background-size: cover;
+  }
+  
+  .portofolio-img-2 {
+    background-image: url("media-meetup-2560.PNG");
+    background-size: cover;
+  }
+} */
+
+@media (max-width: 1625px) {
+  .sidebar-header {
+    max-width: 350px;
+  }
+  .hero-section {
+    max-width: 800px;
+  }
+
+  .left-sidebar img {
+    width: 100%;
+    max-width: 250px;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 46px;
+  }
+  .email {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .hero-section {
+    max-width: 600px;
+  }
+
+  .main-text {
+    font-size: 64px;
+  }
+  .portofolio-img-1 {
+    width: 290px;
+  }
+
+  .portofolio-img-2 {
+    width: 290px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .portofolio-img-1 {
+    width: 290px;
+  }
+  .social-profile {
+    padding-left: 30px;
+  }
+
+  .portofolio-img-2 {
+    width: 290px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .social-profile {
+    margin-left: 198px;
+    padding-left: 100px;
+  }
+
+  .btn-contact {
+    padding: 9px 40px;
+  }
+
+  .sidebar-header {
+    position: relative;
+    max-width: 767px;
+    left: 0;
+    margin: auto;
+    top: 0;
+    /* transform: translateY(0); */
+    margin-top: 20px;
+    /* display: none; */
+  }
+  .email {
+    font-size: 22px;
+  }
+  .hero-section {
+    max-width: 767px;
+  }
+  .left-sidebar img {
+    max-width: 275px;
+    margin-left: 215px;
+  }
+
+  .portofolio-img-1 {
+    width: 375px;
+  }
+
+  .portofolio-img-2 {
+    width: 375px;
+  }
+
+  .social-profile {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .right-bar {
+    right: 50px;
+  }
+
+  .social-profile {
+    margin-left: 125px;
+    padding-left: 100px;
+  }
+
+  .btn--nav {
+    right: 56px;
+  }
+  .main-text {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1022px) {
+  .hero-section {
+    max-width: 600px;
+  }
+
+  .social-profile {
+    margin-left: 75px;
+    padding-left: 66px;
+  }
+
+  .portofolio-img-2 {
+    width: 290px;
+  }
+  .portofolio-img-1 {
+    width: 290px;
+  }
+  .sidebar-header {
+    max-width: 600px;
+  }
+  .left-sidebar img {
+    max-width: 275px;
+    margin-left: 130px;
+  }
+  .main-text {
+    font-size: 54px;
+    line-height: 75px;
+  }
+}
+
+@media (max-width: 906px) {
+  .right-bar {
+    display: none;
+  }
+
+  .social-profile {
+    margin-left: 75px;
+    padding-left: 68px;
+  }
+
+  .main-text {
+    font-size: 54px;
+  }
+}
+
+@media (max-width: 820px) {
+  .social-profile {
+    padding-left: 84px;
+    margin-left: 60px;
+  }
+  .btn--nav {
+    top: 20px;
+  }
+  .main-text {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-section {
+    max-width: 450px;
+  }
+
+  .flex-img {
+    display: block;
+  }
+
+  .portofolio-img-2 {
+    width: 450px;
+  }
+  .portofolio-img-1 {
+    width: 450px;
+  }
+
+  .portofolio-img {
+    background-image: url("medie-pizza.PNG");
+    background-size: cover;
+  }
+
+  .portofolio-img-3 {
+    background-image: url("media-bank.PNG");
+    background-size: cover;
+  }
+
+  .portofolio-img-2 {
+    background-image: url("media-meetup.PNG");
+    background-size: cover;
+  }
+
+  .flex-coll-1 {
+    width: 220px;
+  }
+  .main-text {
+    font-size: 45px;
+    line-height: 75px;
+  }
+}
+
+@media (max-width: 678px) {
+  .sidebar-header {
+    max-width: 500px;
+  }
+  .social-profile {
+    margin-left: 57px;
+    padding-left: 38px;
+  }
+
+  .left-sidebar img {
+    max-width: 275px;
+    margin-left: 80px;
+  }
+  .main-text {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 570px) {
+  .portofolio-img {
+    width: 436px;
+  }
+
+  .social-profile {
+    margin-left: 12px;
+    padding-left: 30px;
+  }
+
+  .portofolio-img-1 {
+    width: 436px;
+  }
+
+  .portofolio-img-3 {
+    width: 436px;
+  }
+
+  .portofolio-img-2 {
+    width: 436px;
+  }
+
+  .hero-section {
+    max-width: 450px;
+  }
+
+  .sidebar-header {
+    max-width: 400px;
+  }
+  .left-sidebar img {
+    max-width: 250px;
+    margin-left: 48px;
+  }
+
+  .email {
+    font-size: 18px;
+  }
+
+  .main-text {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-section {
+    max-width: 350px;
+    padding: 10px;
+  }
+  .social-profile {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .link {
+    height: 47px;
+    line-height: 48px;
+  }
+
+  .sidebar-header {
+    max-width: 300px;
+  }
+
+  .portofolio-img {
+    width: 320px;
+  }
+
+  .portofolio-img-1 {
+    width: 320px;
+  }
+
+  .portofolio-img-3 {
+    width: 320px;
+  }
+
+  .portofolio-img-2 {
+    width: 320px;
+  }
+
+  .left-sidebar img {
+    max-width: 200px;
+    margin-left: 22px;
+  }
+  .btn--nav {
+    right: 8px;
+    top: 6px;
+  }
+
+  .main-text {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .main-text-2 {
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+  .flex-coll-1 {
+    width: 260px;
+  }
+  .email-contact {
+    font-size: 20px;
+  }
+  .flex-input {
+    display: block;
+  }
+  .btn-contact-2 {
+    width: 100%;
+  }
+  .email {
+    font-size: 14px;
+  }
+  .resume-1 .resume::after {
+    height: 62%;
+    top: 195px;
+  }
+  .home {
+    margin-bottom: 28px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .sidebar-header {
+    max-width: 260px;
+  }
+  .social-profile {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .hero-section {
+    max-width: 280px;
+  }
+
+  .left-sidebar img {
+    max-width: 200px;
+    margin-left: 0px;
+  }
+
+  .btn--nav {
+    right: 2px;
+    top: 8px;
+  }
+
+  .email {
+    font-size: 12px;
+  }
+  .main-text {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .email-contact {
+    font-size: 16px;
+  }
+
+  .main-text-2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .portofolio-img {
+    width: 280px;
+  }
+
+  .portofolio-img-1 {
+    width: 280px;
+  }
+
+  .portofolio-img-3 {
+    width: 280px;
+  }
+
+  .portofolio-img-2 {
+    width: 280px;
+  }
+  .rotate-animation {
+    margin-left: 38px;
+  }
+
+  .work-year {
+    gap: 0;
+    margin-left: 25px;
+  }
+  .icons-web {
+    right: 14px;
+  }
+  .resume-1 .resume::after {
+    height: 62%;
+    top: 240px;
+  }
+
+  .resume {
+    padding-left: 55px;
+  }
+
+  .home {
+    margin-bottom: 28px;
+    margin-top: 40px;
+  }
+
+  .link {
+    width: 60px;
+    height: 38px;
+    line-height: 41px;
+  }
+}
