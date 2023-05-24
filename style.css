@@ -99,7 +99,7 @@ body {
   text-decoration: none;
   text-align: center;
   gap: 10px;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .link {
@@ -156,6 +156,12 @@ body {
   line-height: 1.7;
   width: 100%;
   transition: 0.5s;
+}
+
+.btn-contact-email {
+  display: flex;
+  color: #000;
+  text-decoration: none;
 }
 
 .btn-contact:link,
