@@ -13,28 +13,126 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.container {
+/* .container {
   max-width: 1130px;
   padding: 0 15px;
   margin: auto;
   position: relative;
-}
+} */
 
 .global-color {
   position: fixed;
-  left: 22px;
-  top: 25px;
-  z-index: 100;
+  left: 6px;
+  top: 99px;
+  z-index: 9999;
   border: none;
   animation: animName 3s infinite linear;
   cursor: pointer;
   background-color: #1f1f1f;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .rotation-icon {
   font-size: 20px;
   background-color: #1f1f1f;
+  color: #fff;
+}
+
+.rotation-color {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 345px;
+  height: 100%;
+  background-color: #191919;
+  z-index: 99;
+  transform: translateX(-100%);
+}
+
+.show-color {
+  transform: translateX(0%);
+}
+
+.change-color {
   color: #999999;
+  margin-left: 40px;
+}
+
+.color {
+  position: relative;
+}
+
+.dot-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 32%;
+  right: 35px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.change-background {
+  color: #999999;
+  margin-left: 40px;
+  height: 125px;
+  position: relative;
+}
+
+.dot-2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.dot-flex-2 {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  left: 35px;
+  bottom: 22%;
+}
+
+.color-1 {
+  background-color: #28e98c;
+}
+
+.color-2 {
+  background-color: #e4af12;
+}
+
+.color-3 {
+  background-color: #fe6f1d;
+}
+
+.color-4 {
+  background-color: #14c5fd;
+}
+
+.color-5 {
+  background-color: #ff99cc;
+}
+
+.color-6 {
+  background-color: #1338f3;
+}
+
+.color-7 {
+  background-color: #f31313;
 }
 
 .sidebar-header {
@@ -861,7 +959,7 @@ body {
 .portofolio-img {
   width: 100%;
   height: 410px;
-  background-image: url("pizza-img.PNG");
+  background-image: url("img/pizza-img.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -911,7 +1009,7 @@ body {
 .portofolio-img-1 {
   width: 375px;
   height: 410px;
-  background-image: url("ommifood-pictures.PNG");
+  background-image: url("img/ommifood-pictures.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -923,7 +1021,7 @@ body {
 .portofolio-img-2 {
   width: 375px;
   height: 410px;
-  background-image: url("racheta-2.PNG");
+  background-image: url("img/racheta-2.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -941,7 +1039,7 @@ body {
 .portofolio-img-3 {
   width: 100%;
   height: 410px;
-  background-image: url("bank.PNG");
+  background-image: url("img/bank.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

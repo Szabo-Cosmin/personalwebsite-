@@ -1,35 +1,3 @@
-/* @media (max-width: 2560px) {
-  .hero-section {
-    max-width: 1200px;
-  }
-  .p-text {
-    max-width: 1200px;
-  }
-  .portofolio-list {
-    max-width: 1000px;
-  }
-  .portofolio-img-2 {
-    width: 490px;
-  }
-  .portofolio-img-1 {
-    width: 490px;
-  }
-  .portofolio-img {
-    background-image: url("media-pizza-2560.PNG");
-    background-size: cover;
-  }
-
-  .portofolio-img-3 {
-    background-image: url("media-bank-2560.PNG");
-    background-size: cover;
-  }
-  
-  .portofolio-img-2 {
-    background-image: url("media-meetup-2560.PNG");
-    background-size: cover;
-  }
-} */
-
 @media (max-width: 1625px) {
   .sidebar-header {
     max-width: 350px;
@@ -236,17 +204,17 @@
   }
 
   .portofolio-img {
-    background-image: url("medie-pizza.PNG");
+    background-image: url("img/medie-pizza.PNG");
     background-size: cover;
   }
 
   .portofolio-img-3 {
-    background-image: url("media-bank.PNG");
+    background-image: url("img/media-bank.PNG");
     background-size: cover;
   }
 
   .portofolio-img-2 {
-    background-image: url("media-meetup.PNG");
+    background-image: url("img/media-meetup.PNG");
     background-size: cover;
   }
 

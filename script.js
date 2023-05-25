@@ -7,7 +7,6 @@ const sections = document.querySelectorAll(".hero-section");
 rotateAnimation.addEventListener("click", function (e) {
   e.preventDefault();
   const s1coodrs = project.getBoundingClientRect();
-  console.log(s1coodrs);
 
   project.scrollIntoView({ behavior: "smooth" });
 });
@@ -17,7 +16,6 @@ const navBar = document.querySelector(".right-bar");
 if (navBar) {
   navBar.addEventListener("click", function (e) {
     e.preventDefault();
-    console.log(e.target);
 
     if (e.target.classList.contains("nav-icons-1")) {
       const id = e.target.getAttribute("href");
@@ -32,7 +30,6 @@ const allSections = document.querySelectorAll(".hero-section");
 
 const revealSection = function (entries, observer) {
   const [entry] = entries;
-  console.log(entry);
 
   if (!entry.isIntersecting) return;
   entry.target.classList.remove("section-hidden");
@@ -95,3 +92,46 @@ function toggle() {
 }
 
 hamburger.addEventListener("click", toggle);
+
+const menuColor = document.querySelector(".rotation-color");
+const hamburgherColor = document.querySelector(".rotation-icon");
+
+function toggleColor() {
+  menuColor.classList.toggle("show-color");
+}
+
+hamburgherColor.addEventListener("click", toggleColor);
+
+document.addEventListener("click", function (event) {
+  const targetElement = event.target;
+
+  if (targetElement === hamburgherColor || menuColor.contains(targetElement)) {
+    return;
+  }
+
+  menuColor.classList.remove("show-color");
+});
+
+const r = document.querySelector(":root");
+
+function green() {
+  r.style.setProperty("--primary_color", "#28e98c");
+}
+function yellow() {
+  r.style.setProperty("--primary_color", "#e4af12");
+}
+function orange() {
+  r.style.setProperty("--primary_color", "#fe6f1d");
+}
+function lightblue() {
+  r.style.setProperty("--primary_color", "#14c5fd");
+}
+function pink() {
+  r.style.setProperty("--primary_color", "#ff99cc");
+}
+function blue() {
+  r.style.setProperty("--primary_color", "#1338f3");
+}
+function red() {
+  r.style.setProperty("--primary_color", "#f31313");
+}
