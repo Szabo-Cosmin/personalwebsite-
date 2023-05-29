@@ -57,10 +57,6 @@
 }
 
 @media (max-width: 1366px) {
-  .container {
-    max-width: 800px;
-  }
-
   .social-profile {
     margin-left: 198px;
     padding-left: 100px;
