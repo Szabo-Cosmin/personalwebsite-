@@ -61,6 +61,17 @@ body {
 .change-color {
   color: #999999;
   margin-left: 40px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.text-confi {
+  color: #fff;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 1.2;
+  margin-bottom: 80px;
+  margin-left: 62px;
 }
 
 .color {
@@ -70,25 +81,65 @@ body {
 .dot-flex {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 18px;
   position: absolute;
   top: 32%;
-  right: 35px;
+  right: 22px;
 }
 
 .dot {
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
   border-radius: 20px;
   z-index: 100;
   cursor: pointer;
+  position: relative;
+}
+.dot-flex .dot::before {
+  content: "";
+  border: 1px solid #fff;
+  position: absolute;
+  border-radius: 50%;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.dot-flex .dot::after {
+  content: "";
+  position: absolute;
+  border: none;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 4px;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.dot:hover::before,
+.dot-flex:visited {
+  opacity: 1;
+}
+
+.dot:hover::after,
+.dot-flex:visited {
+  opacity: 1;
 }
 
 .change-background {
   color: #999999;
   margin-left: 40px;
-  height: 125px;
+  height: 220px;
   position: relative;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .dot-2 {
