@@ -135,3 +135,28 @@ function blue() {
 function red() {
   r.style.setProperty("--primary_color", "#f31313");
 }
+
+let btn1 = document.querySelector("#bck-img-1");
+let btn2 = document.querySelector("#bck-img-2");
+let btn3 = document.querySelector("#bck-img-3");
+let btn4 = document.querySelector("#bck-img-4");
+let btn5 = document.querySelector("#bck-img-5");
+let btn6 = document.querySelector("#bck-img-6");
+btn1.addEventListener("click", () => {
+  document.body.style.backgroundImage = "url('img/background-original.PNG')";
+});
+btn2.addEventListener("click", () => {
+  document.body.style.backgroundImage = "url('bck-img/bck-img-1.jpg')";
+});
+btn3.addEventListener("click", () => {
+  document.body.style.backgroundImage = "url('bck-img/bck-img-2.jpg')";
+});
+btn4.addEventListener("click", () => {
+  document.body.style.backgroundImage = "url('bck-img/bck-img-3.jpg')";
+});
+btn5.addEventListener("click", () => {
+  document.body.style.backgroundImage = "url('bck-img/bck-img-4.jpg')";
+});
+btn6.addEventListener("click", () => {
+  document.body.style.backgroundImage = "url('bck-img/bck-img-5.jpg')";
+});
