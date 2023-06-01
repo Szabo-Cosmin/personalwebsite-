@@ -12,7 +12,6 @@ body {
   background-image: url(img/background-original.PNG);
   /* background-color: rgb(31 31 31); */
   font-family: "Inter", sans-serif;
-  background-repeat: repeat;
 }
 
 /* .container {
@@ -45,7 +44,7 @@ body {
 .rotation-color {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -73,12 +72,14 @@ body {
   font-weight: 300;
   font-size: 34px;
   line-height: 1.2;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   margin-left: 62px;
+  padding-bottom: 60px;
 }
 
 .color {
   position: relative;
+  margin-bottom: 40px;
 }
 
 .dot-flex {
@@ -139,7 +140,7 @@ body {
 
 .dot-flex-2 {
   display: flex;
-  gap: 6px;
+  gap: 5px;
   margin-left: 10px;
   padding-bottom: 50px;
 }
@@ -149,6 +150,7 @@ body {
   margin-left: 40px;
   position: relative;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .dot-2 {
@@ -602,10 +604,6 @@ body {
   transition: 0.3s all;
 }
 
-.nav-icon.active .position-icon {
-  color: #000;
-}
-
 .nav-icon.active .sidebar-text {
   color: #fff;
 }
@@ -617,8 +615,6 @@ body {
 }
 
 .active .position-icon {
-  filter: invert(73%) sepia(81%) saturate(434%) hue-rotate(88deg)
-    brightness(90%) contrast(96%);
   transition: 0.3s all;
 }
 

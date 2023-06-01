@@ -144,19 +144,47 @@ let btn5 = document.querySelector("#bck-img-5");
 let btn6 = document.querySelector("#bck-img-6");
 btn1.addEventListener("click", () => {
   document.body.style.backgroundImage = "url('img/background-original.PNG')";
+  document.body.style.backgroundRepeat = "repeat";
 });
 btn2.addEventListener("click", () => {
   document.body.style.backgroundImage = "url('bck-img/bck-img-1.jpg')";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundAttachment = "fixed";
 });
 btn3.addEventListener("click", () => {
   document.body.style.backgroundImage = "url('bck-img/bck-img-2.jpg')";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundAttachment = "fixed";
 });
 btn4.addEventListener("click", () => {
   document.body.style.backgroundImage = "url('bck-img/bck-img-3.jpg')";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundAttachment = "fixed";
 });
 btn5.addEventListener("click", () => {
   document.body.style.backgroundImage = "url('bck-img/bck-img-4.jpg')";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundAttachment = "fixed";
 });
 btn6.addEventListener("click", () => {
   document.body.style.backgroundImage = "url('bck-img/bck-img-5.jpg')";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundAttachment = "fixed";
 });
+
+const handleSubmit = (event) => {
+  event.preventDefault();
+
+  const myForm = event.target;
+  const formData = new FormData(myForm);
+
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => alert("Form successfully submitted"))
+    .catch((error) => alert(error));
+};
+
+document.querySelector("form").addEventListener("submit", handleSubmit);

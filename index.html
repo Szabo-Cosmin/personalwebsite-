@@ -48,7 +48,7 @@
           <span onclick="red()" class="dot color-7"></span>
         </div>
         <div>
-          <p class="change-background">Background</p>
+          <p class="change-background">Background Image</p>
         </div>
         <div class="dot-flex-2">
           <img
@@ -475,7 +475,7 @@
         <div>
           <span class="home"
             ><ion-icon class="home-icon" name="briefcase-outline"></ion-icon
-            >Services</span
+            >Specializations</span
           >
         </div>
 
@@ -488,41 +488,44 @@
 
         <div class="specializations">
           <h2 class="text-h2">
-            Website Desing
+            Responsive Web Design
             <ion-icon class="icons-web" name="git-network-outline"></ion-icon>
           </h2>
 
           <p class="nr-project">
-            I created digital products with unique ideas use Figma & Framer
+            Ability to create websites that adapt and work seamlessly across
+            different devices and screen sizes.
           </p>
 
-          <span class="project">24 PROJECTS</span>
+          <span class="project">12 PROJECTS</span>
         </div>
 
         <div class="specializations">
           <h2 class="text-h2">
-            Development
+            Version Control
             <ion-icon class="icons-web" name="code-slash-outline"></ion-icon>
           </h2>
 
           <p class="nr-project">
-            I build website go live with Framer, Webflow or WordPress
+            Experience using version control systems like Git for collaborative
+            development and code management.
           </p>
 
-          <span class="project">126 PROJECTS</span>
+          <span class="project">6 PROJECTS</span>
         </div>
 
         <div class="specializations">
           <h2 class="text-h2">
-            SEO/Marketing
+            Continuous Learning
             <ion-icon class="icons-web" name="rocket-outline"></ion-icon>
           </h2>
 
           <p class="nr-project">
-            Increase the traffic for your website with SEO optimized
+            Eagerness to stay updated with the latest frontend technologies and
+            industry trends.
           </p>
 
-          <span class="project">8 PROJECTS</span>
+          <!-- <span class="project">8 PROJECTS</span> -->
         </div>
       </section>
 
@@ -548,7 +551,7 @@
                 <img class="skill-img" src="img/logo-js.png" alt="JavaScript" />
               </span>
 
-              <h1 class="skill-inner">92%</h1>
+              <h1 class="skill-inner">50%</h1>
             </div>
 
             <p class="name-skills">JavaScript</p>
@@ -572,7 +575,7 @@
                 <img class="skill-img" src="img/logo-css.png" alt="CSS" />
               </span>
 
-              <h1 class="skill-inner">80%</h1>
+              <h1 class="skill-inner">70%</h1>
             </div>
 
             <p class="name-skills">CSS</p>
@@ -584,7 +587,7 @@
                 <img class="skill-img" src="img/logo-git.png" alt="git" />
               </span>
 
-              <h1 class="skill-inner">90%</h1>
+              <h1 class="skill-inner">70%</h1>
             </div>
 
             <p class="name-skills">Github</p>
@@ -600,7 +603,7 @@
                 />
               </span>
 
-              <h1 class="skill-inner">86%</h1>
+              <h1 class="skill-inner">60%</h1>
             </div>
 
             <p class="name-skills">NPM</p>
@@ -616,7 +619,7 @@
                 />
               </span>
 
-              <h1 class="skill-inner">70%</h1>
+              <h1 class="skill-inner">80%</h1>
             </div>
 
             <p class="name-skills">Bootstrap</p>
@@ -762,55 +765,59 @@
         </div>
 
         <div class="max">
-          <div class="flex-input">
-            <div class="flex-label">
-              <label class="label">FULL NAME <span class="stea">*</span></label>
-              <input class="input" type="text" placeholder="Your Full Name" />
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="flex-input">
+              <div class="flex-label">
+                <label class="label"
+                  >FULL NAME <span class="stea">*</span></label
+                >
+                <input class="input" type="text" placeholder="Your Full Name" />
+              </div>
+
+              <div class="flex-label">
+                <label class="label">EMAIL<span class="stea">*</span></label>
+                <input
+                  class="input"
+                  type="email"
+                  placeholder="Your email address"
+                />
+              </div>
+            </div>
+
+            <div class="flex-input">
+              <div class="flex-label">
+                <label class="label" for="phone">PHONE (OPTIONAL)</label>
+                <input
+                  class="input"
+                  type="number"
+                  placeholder="Your Phone Number"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                />
+              </div>
+
+              <div class="flex-label">
+                <label class="label">Subject <span class="stea">*</span></label>
+                <input class="input" type="Subject" placeholder="Subject 1" />
+              </div>
             </div>
 
             <div class="flex-label">
-              <label class="label">EMAIL<span class="stea">*</span></label>
-              <input
-                class="input"
-                type="email"
-                placeholder="Your email address"
-              />
-            </div>
-          </div>
-
-          <div class="flex-input">
-            <div class="flex-label">
-              <label class="label" for="phone">PHONE (OPTIONAL)</label>
-              <input
-                class="input"
-                type="number"
-                placeholder="Your Phone Number"
-                id="phone"
-                name="phone"
-                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-              />
+              <label class="label label-1">MESSAGE *</label>
+              <textarea
+                class="message input"
+                rows="4"
+                placeholder="Write your message here ..."
+                cols="50"
+              ></textarea>
             </div>
 
-            <div class="flex-label">
-              <label class="label">Subject <span class="stea">*</span></label>
-              <input class="input" type="Subject" placeholder="Subject 1" />
-            </div>
-          </div>
-
-          <div class="flex-label">
-            <label class="label label-1">MESSAGE *</label>
-            <textarea
-              class="message input"
-              rows="4"
-              placeholder="Write your message here ..."
-              cols="50"
-            ></textarea>
-          </div>
+            <button type="submit" class="btn-contact btn-contact-2">
+              <span class="contact"> SEND MESSAGE</span>
+            </button>
+          </form>
         </div>
-
-        <button class="btn-contact btn-contact-2">
-          <span class="contact"> SEND MESSAGE</span>
-        </button>
       </section>
     </div>
   </body>
