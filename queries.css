@@ -375,6 +375,10 @@
   .flex {
     margin-left: 32px;
   }
+
+  .icons-web {
+    right: 20px;
+  }
 }
 
 @media (max-width: 320px) {
