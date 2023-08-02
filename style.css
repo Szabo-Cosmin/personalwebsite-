@@ -474,7 +474,7 @@ body {
 
 .btn--nav {
   font-size: 22px;
-  position: absolute;
+  position: fixed;
   top: 68px;
   right: 70px;
   padding: 10px;

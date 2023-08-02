@@ -41,10 +41,12 @@ const sectionObserver = new IntersectionObserver(revealSection, {
   threshold: 0.4,
 });
 
-allSections.forEach(function (section) {
-  sectionObserver.observe(section);
-  section.classList.add("section-hidden");
-});
+if (window.innerWidth >= 1440) {
+  allSections.forEach(function (section) {
+    sectionObserver.observe(section);
+    section.classList.add("section-hidden");
+  });
+}
 
 const section = document.querySelectorAll("section");
 const lists = document.querySelectorAll(".nav-icon");
