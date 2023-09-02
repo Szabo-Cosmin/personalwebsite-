@@ -214,6 +214,11 @@
     background-size: cover;
   }
 
+  .portofolio-img-4 {
+    background-image: url("img/mobile-car-leasing.PNG");
+    background-size: cover;
+  }
+
   .flex-coll-1 {
     width: 220px;
   }
